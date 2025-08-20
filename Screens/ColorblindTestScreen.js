@@ -17,10 +17,10 @@ const ColorBlindTestGame = () => {
     require('../assets/10.jpg'),
     require('../assets/8.jpg'),
     require('../assets/15.jpg'),
-    require('../assets/6.webp'),
-    require('../assets/7.webp'),
-    require('../assets/45.webp'),
-    require('../assets/26.webp'),
+    require('../assets/6.png'),
+    require('../assets/7.png'),
+    require('../assets/45.png'),
+    require('../assets/26.png'),
     require('../assets/74.png'),
   ]);
   const correctAnswers = [10, 8, 15, 6, 7, 45, 26, 74];

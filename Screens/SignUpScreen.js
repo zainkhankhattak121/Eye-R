@@ -14,7 +14,7 @@ const SignUpScreen = () => {
         secureTextEntry
       />
       <TextInput
-        placeholder="Confirm Password"
+        placeholder="please Confirm Password"
         style={styles.input}
         secureTextEntry
       />

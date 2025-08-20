@@ -58,7 +58,7 @@ const ImageRecognitionScreen = () => {
         type: 'image/jpeg',
       });
 
-      const backendUrl = 'http://192.168.100.28:8000/detect-color';
+      const backendUrl ='https://zainkhankhattak121-colordetection.hf.space/detect-color';
       console.log('🔄 Sending image to:', backendUrl);
 
       const backendResponse = await axios.post(backendUrl, formData, {

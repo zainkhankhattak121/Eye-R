@@ -26,7 +26,7 @@ const SignInScreen = () => {
       }
 
       // If verified, navigate to the Home screen
-      navigation.navigate('HomeScreen'); // Replace with your actual Home screen name
+      navigation.navigate('FrontPage'); // Replace with your actual Home screen name
       Alert.alert("Sign In Successful!", "You have successfully signed in.");
     } catch (error) {
       Alert.alert("Sign In Error", error.message);

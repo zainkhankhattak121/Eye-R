@@ -4,15 +4,13 @@
   import ColorblindTestScreen from './Screens/ColorblindTestScreen';  
   import CameraScreen from './Screens/ColorIdentificationScreen';  
   import ColorIdentificationScreen from './Screens/ColorIdentificationScreen';  
-  import ImageRecognitionScreen from './Screens/ImageRecognitionScreen';  
-  import ReactionTimeTestScreen from './Screens/ReactionTimeTestScreen';  
+  import ImageRecognitionScreen from './Screens/ImageRecognitionScreen';   
+  import main_auth from './Auth_folder/main_auth.js';
+  import SignUp2 from './Auth_folder/SignUp2';
+  import ScreenEmailLogin2 from './Auth_folder/ScreenEmailLogin2';
+  import ForgetPasswordScreen2 from './Auth_folder/Forget';
+  import FrontPage  from './Screens/FrontPage';
 
-  // Import Authentication Screens
-  import main_auth from './Screens2/main_auth.js';
-  import SignUp2 from './Screens2/SignUp2';
-  import ScreenEmailLogin2 from './Screens2/ScreenEmailLogin2';
-  import Google_log_in from './Screens2/Google_log_in';
-  import ForgetPasswordScreen2 from './Screens2/ForgetPasswordScreen2';
 
   const Stack = createStackNavigator();
 
@@ -25,12 +23,11 @@
           <Stack.Screen name="CameraScreen" component={CameraScreen} />
           <Stack.Screen name="ColorIdentification" component={ColorIdentificationScreen} />
           <Stack.Screen name="ImageRecognition" component={ImageRecognitionScreen} />
-          <Stack.Screen name="ReactionTimeTest" component={ReactionTimeTestScreen} />
           <Stack.Screen name="main_auth" component={main_auth} options={{ headerShown: false }} />
-          <Stack.Screen name="Google_log_in" component={Google_log_in} options={{ headerShown: false }} />
           <Stack.Screen name="ForgetPasswordScreen2" component={ForgetPasswordScreen2} options={{ headerShown: false }} />
           <Stack.Screen name="SignUp2" component={SignUp2} options={{ headerShown: false }} />
           <Stack.Screen name="EmailLogin2" component={ScreenEmailLogin2} options={{ headerShown: false }} />
+          <Stack.Screen name="FrontPage" component={FrontPage} options={{ headerShown: false }} />
         </Stack.Navigator>
       </NavigationContainer>
     );

@@ -1,26 +1,36 @@
 {
   "project_info": {
-    "project_number": "996257752349",
-    "project_id": "deepfakeaudio",
-    "storage_bucket": "deepfakeaudio.appspot.com"
+    "project_number": "727795324833",
+    "project_id": "with-camera",
+    "storage_bucket": "with-camera.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:996257752349:android:41c3c0dda62c933fef6df4",
+        "mobilesdk_app_id": "1:727795324833:android:517a4e4b0d7289d3ab9de0",
         "android_client_info": {
-          "package_name": "com.deepfakeapp.deepfake"
+          "package_name": "com.example.withcamera"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "727795324833-div4p53bvf7vamolor7mk99bvd2a41mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyC5zFuWZGZcsIbFTqSzyVgBVHjnUZmKdSE"
+          "current_key": "AIzaSyDM9DFDYdv9wAgXCWz-E-1fgkAjrBa56Bs"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727795324833-div4p53bvf7vamolor7mk99bvd2a41mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
